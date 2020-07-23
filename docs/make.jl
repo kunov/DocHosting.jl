@@ -10,6 +10,10 @@ makedocs(sitename = "DocHosting.jl",
         "Home" => "index.md",
         "Examples" => "examples.md",
         "MIT" => "mit.md",
-        "TSeries" => "tseries.md"
+        "DocHosting" => "tseries.md"
     ]
+)
+
+deploydocs(
+    repo = "github.com/kunov/DocHosting.jl.git",
 )
