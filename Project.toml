@@ -1,0 +1,6 @@
+authors = ["Atai Akunov <aakunov@bank-banque-canada.ca>"]
+name = "DocHosting"
+uuid = "f6901e90-ccf7-11ea-3589-4f6dd41a26a3"
+version = "0.1.0"
+
+[deps]
