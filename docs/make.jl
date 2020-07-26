@@ -3,14 +3,12 @@ push!(LOAD_PATH, "../src/")
 
 using Documenter, DocHosting
 
-makedocs(sitename = "DocHosting.jl",
+makedocs(sitename = "Blogging ",
          format = Documenter.HTML(prettyurls = get(ENV, "CI", nothing) == "true"),
          modules = [DocHosting],
          pages = [
-        "Home" => "index.md",
-        "Examples" => "examples.md",
-        "MIT" => "mit.md",
-        "DocHosting" => "tseries.md"
+        "Introduction" => "index.md",
+        "Article 1" => "article1.md"
     ]
 )
 

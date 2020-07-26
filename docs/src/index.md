@@ -1,14 +1,8 @@
 # Home
 
 ```@contents
-Pages = ["examples.md", "mit.md", "tseries.md"]
+Pages = []
 
-```
-
-## Introduction
-
-```@docs
-DocHosting.jl
 ```
 
 ## Index
